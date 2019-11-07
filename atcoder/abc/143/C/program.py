@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 from itertools import groupby
 def print_ans(input_line):
     """Test Case
@@ -11,6 +13,6 @@ def print_ans(input_line):
     print(len(list(groupby(input_line))))
 
 if __name__ == '__main__':
-    N = int(input())
-    s = input()
+    N = int(input().rstrip())
+    s = input().rstrip()
     print_ans(s)
