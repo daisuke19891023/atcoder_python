@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "work:atcoder/abc/188/C/program.print_ans (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "\\work\\atcoder_python",
+                "lambdaHandler": "atcoder/abc/188/C/program.print_ans"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
