@@ -11,3 +11,8 @@ flake8 = "*"
 autopep8 = "*"
 [requires]
 python_version = "3.8"
+
+[scripts]
+test = "python -m doctest program.py"
+create = "xcopy /e "
+aaa = "python"
